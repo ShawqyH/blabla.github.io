@@ -1,0 +1,159 @@
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: black;
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10ps 200px;
+}
+
+
+
+.menu a {
+    color: goldenrod;
+    text-decoration: none;
+    font-size: 1.2em;
+    font-weight: 500;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+
+
+#main {
+    padding: 100px 200px;
+    background: url(ITproject/background.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    display: flex;
+    background-attachment: fixed;
+    color: #000;
+    font-size: large;
+    /* font-weight: 100; */
+}
+
+.search-bar {
+    width: 500px;
+    float: left;
+    /* margin-left: 270px; */
+    /* padding-left: 200px; */
+    padding: 200px 300px;
+
+}
+
+/* .search {
+    padding-left: 300px;
+    padding-top: 150px;
+} */
+
+.srch {
+
+    font-family: 'Times New Roman';
+    width: 400px;
+    height: 40px;
+    border: 2px solid black;
+    color: #000;
+    /* background: white; */
+    background: transparent;
+    /* border-right: none; */
+    font-size: 20px;
+    float: left;
+    padding: 10px 10px;
+    border-radius: 15px;
+    /* border-bottom: 5px; */
+
+}
+
+.btn {
+    width: 40px;
+    height: 40px;
+    background-color: gold;
+    border-radius: 15px;
+    transition: 0.7s;
+}
+
+.btn:hover {
+    background-color: goldenrod;
+    transform: scale(1.1);
+}
+
+#footer {
+    background-color: #000;
+    color: white;
+    padding: 2em;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* .up {
+    color: goldenrod;
+    text-decoration: none;
+    width: 5px;
+    margin-left: 500px;
+    margin-right: 0%;
+    margin-bottom: 0;
+    height: 5px;
+} */
+
+.fttitle {
+    font-size: 1.3em;
+    font-weight: 600;
+    padding-right: 450px;
+}
+
+#copyright {
+    color: goldenrod;
+}
+
+/* .links {
+    padding-right: 0px;
+} */
+
+#yt {
+    padding-right: 50px;
+    width: 5px;
+    height: 5px;
+    color: red;
+    border: white;
+}
+
+#fb {
+    padding-right: 50px;
+    width: 5px;
+    height: 5px;
+    color: blue;
+}
+
+#go {
+    padding-right: 50px;
+    width: 5px;
+    height: 5px;
+}
+
+#wp {
+    padding-right: 50px;
+    width: 5px;
+    height: 5px;
+    color: green;
+}
+
+#in {
+    padding-right: 50px;
+    width: 5px;
+    height: 5px;
+    color: blueviolet;
+}
+
+.fttitle span {
+    color: goldenrod;
+}

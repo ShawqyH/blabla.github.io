@@ -1,0 +1,202 @@
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: black;
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10ps 200px;
+}
+
+
+
+.menu a {
+    color: goldenrod;
+    text-decoration: none;
+    font-size: 1.2em;
+    font-weight: 500;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+
+.main{
+    
+    padding-top: 70px;
+    direction: rtl;
+    background-color: rgba(216, 208, 208, 0.301);
+
+}
+.main h1{
+    margin-bottom: 10px;
+    border: 2px solid black;
+    border-right: 7px solid rgb(0, 0, 0);
+    border-radius: 1;
+    padding: 10px;
+    background-color: goldenrod;
+
+}
+
+#intro{
+    font-weight: 600;
+    font-size: 20px;
+    padding-right: 10px;
+}
+
+.main h2{
+    border: 2px solid black;
+    border-right: 7px solid rgb(0, 0, 0);
+    border-radius: 1;
+    padding: 10px;
+    background-color: goldenrod;
+    width: max-content;
+}
+
+#logo {
+    padding-right: 500px;
+    padding-top: 20px;
+}
+
+.main video{
+    padding-top: 10px;
+    margin-right: 250px;
+}
+.info{
+    list-style-type: none;
+}
+
+.info strong{
+    font-weight: 600;
+    font-size: 25px;
+}
+
+.info li{
+    padding: 10px;
+}
+
+.info a{
+    font-size: 20px;
+    text-decoration: none;
+    color: rgb(182, 141, 36);
+}
+
+.parts li{
+    list-style-type: none;
+    display: inline-block;
+    
+    
+}
+
+.parts li a{
+    text-decoration: none;
+    color: goldenrod;
+    width: 100%;
+    
+}
+
+.parts li a:hover{
+    color: #000;
+
+}
+
+.imggallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    /* background-color: goldenrod; */
+    width: 180px;
+    transition: 0.7s;
+}
+.imggallery:hover {
+    border: 1px solid #777;
+    transform: scale(1.1);
+}
+
+.imggallery img {
+    width: 100%;
+    height: auto;
+    border-bottom: 2px solid black;
+}
+
+.desc {
+    padding: 15px;
+    text-align: center;
+    background-color: black;
+    
+}
+
+.desc:hover{
+    background-color: goldenrod;
+    
+}
+
+#footer {
+    background-color: #000;
+    color: white;
+    padding: 2em;
+    display: flex;
+    justify-content: space-between;
+    position: static;
+}
+
+
+
+.fttitle {
+    font-size: 1.3em;
+    font-weight: 600;
+    padding-right: 450px;
+}
+
+#copyright {
+    color: goldenrod;
+}
+
+/* .links {
+    padding-right: 0px;
+} */
+
+#yt {
+    padding-right: 50px;
+    width: 5px;
+    height: 5px;
+    color: red;
+    border: white;
+}
+
+#fb {
+    padding-right: 50px;
+    width: 5px;
+    height: 5px;
+    color: blue;
+}
+
+#go {
+    padding-right: 50px;
+    width: 5px;
+    height: 5px;
+}
+
+#wp {
+    padding-right: 50px;
+    width: 5px;
+    height: 5px;
+    color: green;
+}
+
+#in {
+    padding-right: 50px;
+    width: 5px;
+    height: 5px;
+    color: blueviolet;
+}
+
+.fttitle span {
+    color: goldenrod;
+}
