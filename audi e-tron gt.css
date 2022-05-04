@@ -33,25 +33,15 @@ header {
     padding-top: 70px;
     direction: rtl;
     background-color: rgba(216, 208, 208, 0.301);
-
-}
-.main h1{
-    margin-bottom: 10px;
-    border: 2px solid black;
-    border-right: 7px solid rgb(0, 0, 0);
-    border-radius: 1;
-    padding: 10px;
-    background-color: goldenrod;
-
+    /* background: url(itproject/Simple\ Blue\ Watercolor\ \ Frame.jpg) no-repeat; */
+    
+    background-position: center;
+    /* min-height: 100vh; */
+    background-attachment: fixed;
+    line-height: 30px;
 }
 
-#intro{
-    font-weight: 600;
-    font-size: 20px;
-    padding-right: 10px;
-}
-
-.main h2{
+.main h1,h2,h3{
     border: 2px solid black;
     border-right: 7px solid rgb(0, 0, 0);
     border-radius: 1;
@@ -60,32 +50,21 @@ header {
     width: max-content;
 }
 
-#logo {
-    padding-right: 500px;
-    padding-top: 20px;
-}
-
-.main video{
-    padding-top: 10px;
+.face{
     margin-right: 250px;
-}
-.info{
-    list-style-type: none;
+    margin-top: 20px;
 }
 
-.info strong{
-    font-weight: 600;
-    font-size: 25px;
+.first{
+    width: 800px;
+    margin-right: 250px;
+    margin-top: 20px;
+    font-size: 22px;
+    padding: 15px;
 }
 
-.info li{
-    padding: 10px;
-}
-
-.info a{
-    font-size: 20px;
-    text-decoration: none;
-    color: rgb(182, 141, 36);
+.main span{
+    color: red;
 }
 
 .parts li{
@@ -103,11 +82,9 @@ header {
 }
 
 
-
 .imggallery {
     margin: 5px;
     border: 1px solid #ccc;
-    /* background-color: goldenrod; */
     width: 180px;
     transition: 0.7s;
 }
@@ -128,7 +105,6 @@ header {
     background-color: black;
     
 }
-
 
 
 .sections ul{

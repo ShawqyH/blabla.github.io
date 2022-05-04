@@ -127,38 +127,49 @@ footer {
 
 
 #yt {
-    padding-right: 50px;
+    margin-right: 50px;
     width: 5px;
     height: 5px;
     color: red;
     border: white;
 }
 
+
 #fb {
-    padding-right: 50px;
+    margin-right: 50px;
     width: 5px;
     height: 5px;
     color: blue;
 }
 
 #go {
-    padding-right: 50px;
+    margin-right: 50px;
     width: 5px;
     height: 5px;
 }
 
 #wp {
-    padding-right: 50px;
+    margin-right: 50px;
     width: 5px;
     height: 5px;
     color: green;
 }
 
 #in {
-    padding-right: 50px;
+    margin-right: 50px;
     width: 5px;
     height: 5px;
     color: blueviolet;
+}
+
+footer li{
+    list-style-type: none;
+    display: inline-block;
+    
+}
+
+footer ul{
+    justify-content: space-between;
 }
 
 .fttitle span {

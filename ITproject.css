@@ -39,9 +39,7 @@ header {
     background-attachment: fixed;
     color: #000;
     font-size: large;
-    /* font-weight: 100; */
 }
-
 .search-bar {
     width: 500px;
     float: left;
@@ -87,72 +85,142 @@ header {
     transform: scale(1.1);
 }
 
-#footer {
+
+.sections ul{
+    margin-left: 20px;
+    
+    margin-bottom: 100px;
+}
+
+label {
+    margin-right: 10px;
+    padding: 3px 3px 3px 3px;
+    border: 2px solid goldenrod;
+    background-color: #000;
+    color: goldenrod;
+    border-radius: 7px;
+    height: 30px;
+    font-weight: 600;
+
+}
+
+.sections li {
+    width: 150px;
+    list-style-type: none;
+    display: inline-block;
+}
+
+button a {
+    text-decoration: none;
+    color: #000;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    /* width: 400px;
+    height: 30px; */
+    font-weight: 600;
+    font-size: 12px;
+}
+
+button a:hover {
+    color: goldenrod;
+}
+
+button {
+    text-decoration: none;
+    margin-bottom: 20px;
+    padding: 3px 3px;
+    background-color: goldenrod;
+    width: 150px;
+    height: 30px;
+    transition: 0.7s;
+    text-align: center;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+button:hover {
+    transform: scale(1.1);
+    background-color: black;
+
+}
+
+footer {
     background-color: #000;
     color: white;
     padding: 2em;
-    display: flex;
     justify-content: space-between;
 }
 
-/* .up {
-    color: goldenrod;
-    text-decoration: none;
-    width: 5px;
-    margin-left: 500px;
-    margin-right: 0%;
-    margin-bottom: 0;
-    height: 5px;
-} */
 
-.fttitle {
-    font-size: 1.3em;
-    font-weight: 600;
-    padding-right: 450px;
-}
 
 #copyright {
     color: goldenrod;
 }
 
-/* .links {
-    padding-right: 0px;
-} */
+.fttitle {
+    font-size: 1.3em;
+    font-weight: 600;
+    width: max-content;
+    
+}
+
+footer p{
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
 
 #yt {
-    padding-right: 50px;
+    margin-right: 20px;
     width: 5px;
     height: 5px;
     color: red;
     border: white;
 }
 
+
 #fb {
-    padding-right: 50px;
+    margin-right: 20px;
     width: 5px;
     height: 5px;
     color: blue;
 }
 
 #go {
-    padding-right: 50px;
+    margin-right: 20px;
     width: 5px;
     height: 5px;
 }
 
 #wp {
-    padding-right: 50px;
+    margin-right: 20px;
     width: 5px;
     height: 5px;
     color: green;
 }
 
 #in {
-    padding-right: 50px;
+    margin-right: 20px;
     width: 5px;
     height: 5px;
     color: blueviolet;
 }
+
+.flinks li{
+    list-style-type: none;
+    display: inline-block;
+}
+
+
+.flinks{
+    justify-content: space-between;
+    
+    
+}
+
+
+
 
 .fttitle span {
     color: goldenrod;
